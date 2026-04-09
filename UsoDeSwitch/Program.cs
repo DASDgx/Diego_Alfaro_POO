@@ -30,6 +30,7 @@ public static class Program {
 
         int opcion;
         while (menuAc) {
+            proceso = "";
 
             Console.WriteLine("1 - Obtener potencia\n2 - Convertir Km a M\n3 - Convertir Pesos a dolar\n4-Convertir °C a °F\n5- Ordenar numeros\n6- FizzBuzz\n7 - Salir");
             try {
